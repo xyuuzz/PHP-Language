@@ -1,0 +1,11 @@
+.header {
+    color: blue;
+    height: 250px;
+    width: max-content;
+    background-color: aqua;
+}
+
+:hover .header header h1 {
+    color: black;
+}
+
