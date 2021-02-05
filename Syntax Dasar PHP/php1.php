@@ -14,14 +14,21 @@
     // var_dump         => untuk mencetak isi variabel
     //var_dump("Hello World");
     
-    // Variabel dan Tipe Data 
+    // Variabel 
     // Variabel di dalam PHP dituliskan dengan => $nama_vaiabel = nilai_variabel
+    // Pada nama_variabel, tidak boleh menggunakan angka di bagian depanya 
     $nama = "Maulana Yusuf";
     echo "Halo  $nama <br>"; // contoh penulisan tag html di dalam syntax PHP
     // Ini disebut Interpolasi yaitu menuliskan nama variabel didalam tanda kutip
     //interpolasi ini hanya dapat dilakukan oleh petik dua, sedangkan petik satu tidak bisa
 
+    // Tipe Data 
+    // Tipe Data pada PHP ada 7, diantaranya :
+    // string, integer, float, array, object, null, boolean
+
+
     // Operator pada Bahasa PHP
+
     // Aritmatika 
     // + - * / dan %
 
@@ -46,6 +53,12 @@
     // pada operator && jika nilai nya true semua => true, jika ada salah satu yang false => false
     // pada operator || jika nilainya ada yang true => true
     // operator ! => mencetak nilai sebaliknya 
+
+    // Increment dan Decrement
+    // Lambang operator ini adalah ++ => inc => +1 dan -- => dec => -1
+    // Pada operator inc dan dec, jika :
+    // $k++ => maka variabel akan ditambahkan setelah program dijalankan / setelah echo
+    // ++$k => maka variabel akan ditambahkan sebelum program dijalankan / sebelum echo
 
 ?>
 
