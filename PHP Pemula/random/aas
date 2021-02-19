@@ -1,0 +1,65 @@
+[33mcommit a9e2fcbfc8513f3d2bb12dd0ba3374355ededc01[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: 54f5024 9dfba12
+Author: mMaulana <maulanayuusuf023@gmail.com>
+Date:   Fri Feb 5 22:22:41 2021 +0700
+
+    GET & POST
+
+[1mdiff --cc KUMPULAN-LATIHAN[m
+[1mindex 0000000,0000000..34d48b0[m
+[1mnew file mode 160000[m
+[1m--- /dev/null[m
+[1m+++ b/KUMPULAN-LATIHAN[m
+[36m@@@ -1,0 -1,0 +1,1 @@@[m
+[32m++Subproject commit 34d48b04af4b28c4d5d400d22cb4b74e54c98190[m
+[1mdiff --cc Syntax Dasar PHP/php1.php[m
+[1mindex 57db173,3bc83d3..a12d93e[m
+[1m--- a/Syntax Dasar PHP/php1.php[m
+[1m+++ b/Syntax Dasar PHP/php1.php[m
+[36m@@@ -14,21 -14,14 +14,30 @@@[m
+      // var_dump         => untuk mencetak isi variabel[m
+      //var_dump("Hello World");[m
+      [m
+[32m++<<<<<<< HEAD[m
+[32m +    // Variabel [m
+[32m +    // Variabel di dalam PHP dituliskan dengan => $nama_vaiabel = nilai_variabel[m
+[32m +    // Pada nama_variabel, tidak boleh menggunakan angka di bagian depanya [m
+[32m++=======[m
+[32m+     // Variabel dan Tipe Data [m
+[32m+     // Variabel di dalam PHP dituliskan dengan => $nama_vaiabel = nilai_variabel[m
+[32m++>>>>>>> 9dfba12c4d88c6185575af21c5e29a77bedcced4[m
+      $nama = "Maulana Yusuf";[m
+      echo "Halo  $nama <br>"; // contoh penulisan tag html di dalam syntax PHP[m
+      // Ini disebut Interpolasi yaitu menuliskan nama variabel didalam tanda kutip[m
+      //interpolasi ini hanya dapat dilakukan oleh petik dua, sedangkan petik satu tidak bisa[m
+  [m
+[32m++<<<<<<< HEAD[m
+[32m +    // Tipe Data [m
+[32m +    // Tipe Data pada PHP ada 7, diantaranya :[m
+[32m +    // string, integer, float, array, object, null, boolean[m
+[32m +[m
+[32m +[m
+      // Operator pada Bahasa PHP[m
+[32m +[m
+[32m++=======[m
+[32m++    // Operator pada Bahasa PHP[m
+[32m++>>>>>>> 9dfba12c4d88c6185575af21c5e29a77bedcced4[m
+      // Aritmatika [m
+      // + - * / dan %[m
+  [m
+[36m@@@ -54,12 -47,6 +63,15 @@@[m
+      // pada operator || jika nilainya ada yang true => true[m
+      // operator ! => mencetak nilai sebaliknya [m
+  [m
+[32m++<<<<<<< HEAD[m
+[32m +    // Increment dan Decrement[m
+[32m +    // Lambang operator ini adalah ++ => inc => +1 dan -- => dec => -1[m
+[32m +    // Pada operator inc dan dec, jika :[m
+[32m +    // $k++ => maka variabel akan ditambahkan setelah program dijalankan / setelah echo[m
+[32m +    // ++$k => maka variabel akan ditambahkan sebelum program dijalankan / sebelum echo[m
+[32m +[m
+[32m++=======[m
+[32m++>>>>>>> 9dfba12c4d88c6185575af21c5e29a77bedcced4[m
+  ?>[m
+  [m
+  [m
