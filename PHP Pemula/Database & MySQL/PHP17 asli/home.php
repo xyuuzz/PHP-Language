@@ -86,7 +86,7 @@ $allFields = table("SELECT * FROM $username");
             placeholder="Masukan Nama Siswa" id="keyword">
             <!-- Tombol cari dihilangkan -->
             <!-- <button type="submit" name="search" id="search">Search</button> --> 
-            <!-- <img class="loading" src="img/loading.gif"> -->
+            <img class="loading" src="img/loading.gif">
             
         </form>
         <br>

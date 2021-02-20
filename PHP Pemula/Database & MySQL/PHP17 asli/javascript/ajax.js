@@ -11,7 +11,7 @@ $(document).ready(function() {
         // })
 
         // Untuk memunculkan gif loading
-        // $(".loading").show();
+        $(".loading").show();
         // Ajax menggunakan $.get pada jQuery
         $.get("javascript/data.php?keyword=" + $("#keyword").val(), function(data) {
                 // Cara baca : jquery tolong kirimkan data ke data.php yang ada di folder javascript dan kirimkan data value dari element dengan id keyword => masukan ke parameter data dan jalankan function.
@@ -20,7 +20,7 @@ $(document).ready(function() {
                 // html artinya sama saja dengan .innerHTML
 
                 // Menghilangkan gif loading
-                // $(".loading").hide(); // hide = display : none;
+                $(".loading").hide(); // hide = display : none;
 
             })
             // Fungsi load dengan $.get() itu sama saja, namun $.get lebih fleksibel daripada load

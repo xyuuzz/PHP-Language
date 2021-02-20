@@ -3,7 +3,7 @@
     // Disini kita akan membuat banyak function MySQL yang akan dihubungkan dengan file php yang berisi bayak tabel.           
 
 
-    $connect = mysqli_connect("sql205.epizy.com", "epiz_27966708", "giGIA4440uiET", "epiz_27966708_daftarnilai6a");
+    $connect = mysqli_connect("localhost", "root", "", "daftarnilai6a");
     // Menghubungkan file php dengan database MySQL
 
     function table ($tableDatabase) {
